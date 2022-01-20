@@ -35,7 +35,7 @@ const cleanUp = () => {
 
 const getDate = () => {
     let date = new Date()
-    return `${date.getDate()}-${('0' + (date.getMonth() + 1)).slice(-2)}-${date.getFullYear()}`
+    return `${date.getDate()}-${('0' + (date.getMonth() + 1)).slice(-2)}`
 }
 
 const onLoad = () =>{
