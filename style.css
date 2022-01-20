@@ -43,10 +43,12 @@ body {
 .icon {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa {
-    margin: 5px 5px 0 0;
+    margin: 5px 5px;
 }
 
 #location {
